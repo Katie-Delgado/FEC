@@ -1,19 +1,34 @@
-# FEC
+# Forbes-Image-Gallery-Review
 
-The Exercise
-Using any image API of your choice, or API that returns content with images:
-Retrieve a list of at least 50 images and display them as thumbnails on a page
-Paginate thumbnails by 10 thumbnails per page
-When clicking on an image it should display in a modal.
-All images should be about a specific theme or based on a specific word
+## Goal
+  <ul>
+    <li>Build the provided application using the image API of your choosing. Test both functionality and code by running the application and reviewing the syntax/code.</li>
+  </ul>
 
-Technical Constraints
-The Application should be built with html/js/css
-You may use pre-processors for css (but no frameworks, such as bootstrap)
-You may use whatever build tools you want
-The application should work and run when executing
-`npm i && npm start` from its root directory
-Please code in vanilla JS (no frameworks, or libraries)
-Take responsive design into consideration
-Your application only needs to work in Chrome
-If applicable: Include instructions for running your unit tests
+## Prerequisites
+  <ul>
+    <li>Identify an API that contains images related to a theme of your choosing. Update the code to utilize these images.</li>
+    <li>run application by executing `npm i && npm start` from its root directory</li>
+    <li>http-server: ^0.12.3</li>
+  </ul>
+    
+## Instructions
+   <ul>
+      <li>Build the html/js/css application.</li>
+      <li>Verify the images API chosen is loading correctly.</li>
+      <li>Test the application's usability, functionality, and business logic.</li>
+      <li>Perform a thorough code review of the 'Main.js' file only.</li>
+      <li>Leave comments inline as code comments with the key `@COMMENT` before your remarks.</li>
+      ** NOTE: Style improvements are not required but are encouraged, time permitting.<br>
+  </ul>
+  
+## Technical Considerations
+  <ul>
+      <li>Any code modifications should be done in vanilla JS (no frameworks, or libraries)</li>
+      <li>Your application only needs to work in Chrome</li>
+      <li>Evaluate and provide feedback based on architecture, approach, style, exceptions and whatever else you believe is relevant toward helping the author    deliver a solid feature.</li>
+      <li>Take responsive design into consideration</li>
+  </ul>
+
+## License
+ISC
